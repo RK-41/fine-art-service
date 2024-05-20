@@ -71,10 +71,33 @@ button:focus-visible {
   }
 } */
 
+* {
+	font: inter;
+}
+
 .bg-img {
-	background-image: url('./assets/art_bg.jpeg');
+	background-image: url('./assets/bg_img.png');
 }
 
 .bold {
 	font-weight: 400;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+	/* margin-left: 50px; */
+	position: relative;
+	left: 150px;
+}
+
+input[type='date']::-webkit-inner-spin-button {
+	display: none;
+}
+
+input[type='date']::-webkit-clear-button {
+	display: none;
+}
+
+input[type='date']::-webkit-datetime-edit {
+	/* color: transparent; */
+	display: none;
 }

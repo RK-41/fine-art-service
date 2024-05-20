@@ -1,11 +1,11 @@
-import './App.css';
-import { Navbar, Home } from './components/index';
+import { Navbar } from './components/index';
+import { Outlet } from 'react-router-dom';
 
 function App() {
 	return (
 		<div className='font-inter'>
 			<Navbar />
-			<Home />
+			<Outlet />
 		</div>
 	);
 }
