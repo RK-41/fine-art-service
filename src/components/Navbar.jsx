@@ -34,41 +34,6 @@ function Navbar() {
 				</NavLink>
 			</div>
 
-			{/* <div>
-					<NavLink
-						to='/'
-						className={({ isActive }) =>
-							`${isActive ? 'text-green-600' : 'text-gray-500'}`
-						}
-					>
-						Home
-					</NavLink>
-					<NavLink
-						to='services'
-						className={({ isActive }) =>
-							`${isActive ? 'text-green-600' : 'text-gray-500'}`
-						}
-					>
-						Services
-					</NavLink>
-					<NavLink
-						to='about-us'
-						className={({ isActive }) =>
-							`${isActive ? 'text-green-600' : 'text-gray-500'}`
-						}
-					>
-						About Us
-					</NavLink>
-					<NavLink
-						to='login'
-						className={({ isActive }) =>
-							`${isActive ? 'text-green-600' : 'text-gray-500'}`
-						}
-					>
-						Login
-					</NavLink>
-				</div> */}
-
 			<nav className='flex-grow z-10 flex flex-row-reverse justify-start lg:justify-center items-center max-w-[33%]  bg-white'>
 				<button
 					onClick={toggleNavbar}

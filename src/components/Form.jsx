@@ -255,16 +255,10 @@ function Form() {
 						</TabsTrigger>
 					</TabsList>
 
-					{/* <TabsContentCustom value='domestic' />
-					<TabsContentCustom value='international' />
-           */}
 					<TabsContentCustom value='domestic' />
 					<TabsContentCustom value='international' />
 				</Tabs>
 
-				{/* <div className='relative top-[400px] left-56  w-max font-bold'>
-					<span>Step 1/4</span>
-				</div> */}
 				<div className='mx-auto font-bold flex items-end h-full'>
 					<span>Step 1/4</span>
 				</div>
