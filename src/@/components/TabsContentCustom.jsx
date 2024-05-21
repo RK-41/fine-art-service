@@ -164,7 +164,7 @@ function TabsContentCustom({ value }) {
 							/>
 						</div>
 
-						<div className='flex justify-end h-10 px-1'>
+						<div className='flex justify-end h-10 px-1 mr-3'>
 							<Button
 								type='submit'
 								className='w-[180px] text-white bg-[#004019] rounded-xl'

@@ -51,7 +51,7 @@ function Navbar() {
 					} mt-20 lg:mt-0 z-20 w-max   lg:block lg:w-auto`}
 					id='navbar-default'
 				>
-					<ul className='font-medium flex flex-col p-4 lg:p-0 border border-gray-100 rounded-lg bg-gray-50 lg:flex-row lg:space-x-8 rtl:space-x-reverse mt-20 lg:mt-0 lg:border-0 lg:bg-white'>
+					<ul className='flex flex-col p-4 lg:p-0 border border-gray-100 rounded-lg bg-gray-50 lg:flex-row lg:space-x-8 rtl:space-x-reverse mt-20 lg:mt-0 lg:border-0 lg:bg-white font-bold'>
 						<li>
 							<NavLink
 								to='/'

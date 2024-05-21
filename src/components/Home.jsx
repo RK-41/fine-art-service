@@ -19,7 +19,7 @@ function HomeCopy() {
 
 	return (
 		<div className='flex flex-col xl:flex-row justify-between '>
-			<div className='w-full xl:w-auto p-2'>
+			<div className='w-full xl:w-auto py-2'>
 				<div className='w-full max-w-[654px] h-[320px] sm:h-[360px] md:h-[408px] mx-auto xl:mx-1.5 rounded-[5.44px] font-bold  bg-img bg-cover '>
 					<div className='w-full h-full pr-12 md:pr-18 pt-5 bg-white/60 overflow-hidden'>
 						<div className='sm:w-[65%] h-[90px] sm:h-[100px] md:h-[118px] mt-[18px] bg-[#EBE9FF9E]/[62%] rounded-r-[30px] flex flex-col justify-center items-center'>

@@ -206,7 +206,7 @@ function Form() {
 	return (
 		<div>
 			<Select>
-				<SelectTrigger className='w-max  ml-6 font-bold'>
+				<SelectTrigger className='w-max ml-6 px-3 font-bold'>
 					<SelectValue
 						placeholder={
 							cityType == 'domestic' ? domesticCity : internationalCity
